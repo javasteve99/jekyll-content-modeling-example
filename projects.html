@@ -1,0 +1,20 @@
+---
+layout: default
+title: Projects
+---
+
+<header class="intro">
+  <h1>{{ page.title }}</h1>
+</header>
+
+<section class="case-studies-body">
+  <ul class="listing">
+    {% assign projects = site.projects | sort: 'listing-priority' %}
+    {% for project in projects %}
+    <li>
+      <h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
+      <p>{{ project.description }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+</section>

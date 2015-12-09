@@ -1,0 +1,20 @@
+exclude:
+  - README.md
+
+permalink: pretty
+
+collections:
+  projects:
+    output: true
+  people:
+    output: true
+
+defaults:
+  - scope:
+      type: projects
+    values:
+      layout: project
+  - scope:
+      type: people
+    values:
+      layout: person

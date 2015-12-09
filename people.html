@@ -1,0 +1,21 @@
+---
+layout: default
+title: People
+---
+
+<header class="intro">
+  <h1>People</h1>
+  <p>Lorem ipsum dolor sit amet...</p>
+</header>
+
+<section class="people-body">
+  <ul class="listing">
+    {% assign people = site.people | sort: 'listing-priority' %}
+    {% for person in people %}
+    <li>
+      <h2><a href="{{ person.url }}">{{ person.first-name }} {{ person.last-name }}</a></h2>
+      <p>{{ person.job }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
