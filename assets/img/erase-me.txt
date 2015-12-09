@@ -1,1 +1,0 @@
-Stupid useless file to make git recognize empty directory

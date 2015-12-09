@@ -8,7 +8,7 @@ title: People
   <p>Lorem ipsum dolor sit amet...</p>
 </header>
 
-<section class="people-body">
+<div class="people-body">
   <ul class="listing">
     {% assign people = site.people | sort: 'listing-priority' %}
     {% for person in people %}
@@ -18,4 +18,4 @@ title: People
     </li>
     {% endfor %}
   </ul>
-</section>
+</div>

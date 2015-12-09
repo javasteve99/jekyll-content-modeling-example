@@ -9,7 +9,7 @@ nav-area: home
   <p>Lorem ipsum dolor sit amet...</p>
 </header><!-- end of section.intro -->
 
-<section class="projects-blurb">
+<div class="projects-blurb">
   <h2>Our projects</h2>
   <ul class="listing">
     {% assign projects = site.projects | where: "featured", "true" | sort: 'featured-priority' %}
@@ -21,9 +21,9 @@ nav-area: home
     {% endfor %}
   </ul>
   <a href="/projects" class="direct-to-section">Learn about more of our projects</a>
-</section><!-- end of section.projects-blurb -->
+</div><!-- end of div.projects-blurb -->
 
-<section class="people-blurb">
+<div class="people-blurb">
   <h2>Our people</h2>
   <ul class="listing">
     {% assign people = site.people | sort: 'listing-priority' %}
@@ -36,4 +36,4 @@ nav-area: home
     {% endfor %}
   </ul>
   <a href="/people" class="direct-to-section">Learn more about our people</a>
-</section><!-- end of section.people-blurb -->
+</div><!-- end of section.people-blurb -->
