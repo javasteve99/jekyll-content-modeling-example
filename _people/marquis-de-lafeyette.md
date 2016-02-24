@@ -1,5 +1,5 @@
 ---
-id: gilbert-du-motier
+object-id: gilbert-du-motier
 first-name: Gilbert
 last-name: du Motier
 job: Marquis De Lafayette

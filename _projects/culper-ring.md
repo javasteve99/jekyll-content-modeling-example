@@ -1,5 +1,5 @@
 ---
-id: culper-ring
+object-id: culper-ring
 title: Culper Ring
 featured: false
 featured-priority:

@@ -1,5 +1,5 @@
 ---
-id: aaron-burr
+object-id: aaron-burr
 first-name: Aaron
 last-name: Burr
 job: The Damned Fool Who Shot Him

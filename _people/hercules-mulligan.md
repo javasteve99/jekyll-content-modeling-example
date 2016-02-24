@@ -1,5 +1,5 @@
 ---
-id: hercules-mulligan
+object-id: hercules-mulligan
 first-name: Hercules
 last-name: Mulligan
 job: Textile Importer, American Spy

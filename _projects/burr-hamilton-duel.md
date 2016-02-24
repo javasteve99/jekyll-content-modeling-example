@@ -1,5 +1,5 @@
 ---
-id: burr-hamilton-duel
+object-id: burr-hamilton-duel
 title: Burr-Hamilton Duel
 featured: false
 featured-priority:

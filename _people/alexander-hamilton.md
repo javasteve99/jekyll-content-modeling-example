@@ -1,5 +1,5 @@
 ---
-id: alexander-hamilton
+object-id: alexander-hamilton
 first-name: Alexander
 last-name: Hamilton
 job: 1st United States Secretary of the Treasury

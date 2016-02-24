@@ -1,5 +1,5 @@
 ---
-id: john-laurens
+object-id: john-laurens
 first-name: John
 last-name: Laurens
 job: Lieutenant Colonel

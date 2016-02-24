@@ -1,5 +1,5 @@
 ---
-id: battle-of-the-combahee-river
+object-id: battle-of-the-combahee-river
 title: Battle of the Combahee River
 featured: false
 featured-priority:

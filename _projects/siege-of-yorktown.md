@@ -1,5 +1,5 @@
 ---
-id: siege-of-yorktown
+object-id: siege-of-yorktown
 title: Siege of Yorktown
 featured: true
 featured-priority: 1

@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{% assign architect = site.people | where: "id", page.architect-id  | first %}
+{% assign architect = site.people | where: "object-id", page.architect-id  | first %}
 
 <header class="intro project-header">
   <h1>{{ page.title }}</h1>
